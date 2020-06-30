@@ -24,7 +24,7 @@ gensim==3.7.3
 google-pasta==0.1.7
 grpcio==1.23.0
 h5py==2.9.0
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.8
 indic-transliteration==1.8.9
 jmespath==0.9.4
