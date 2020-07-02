@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 inwordlen = 5
 
-dl = get_xy_data("../sandhi/Data/sandhiset.txt")
+dl = get_xy_data("../Data/sandhiset.txt")
 
 # Split the training and testing data
 dtrain, dtest = train_test_split(dl, test_size=0.2, random_state=1)

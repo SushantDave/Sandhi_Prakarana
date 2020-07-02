@@ -96,8 +96,3 @@ def get_sandhi_dataset(datafile):
 def get_xy_data(datafile):
     w1l, w2l, ol = get_sandhi_dataset(datafile)
     return w1l, w2l, ol
-
-get_xy_data("./Data/sandhiset.txt")
-get_xy_data("./Official_SandhiKosh/Astaadhyaayii.txt")
-get_xy_data("./Official_SandhiKosh/Bhagvad_Gita.txt")
-get_xy_data("./Official_SandhiKosh/literature.txt")

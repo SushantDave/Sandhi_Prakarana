@@ -13,7 +13,7 @@ input_texts = []
 target_texts = []
 characters = set()
 
-w1l, w2l, ol = sdp.get_xy_data("Data/sandhiset.txt")
+w1l, w2l, ol = sdp.get_xy_data("../Data/sandhiset.txt")
 
 print("Sandhi dataset created")
 
@@ -139,7 +139,7 @@ def decode_sequence(input_seq):
 
     return decoded_sentence
 
-test_file_list = ["testset", "Official_SandhiKosh/Astaadhyaayii.txt", "Official_SandhiKosh/Bhagvad_Gita.txt", "Official_SandhiKosh/literature.txt"]
+test_file_list = ["testset", "../Data/SandhiKosh/Astaadhyaayii.txt", "../Data/SandhiKosh/Bhagvad_Gita.txt", "../Data/SandhiKosh/literature.txt"]
 
 
 for test_file in test_file_list:
